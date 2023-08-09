@@ -80,3 +80,13 @@ java.lang.AssertionError: File src/test/snapshots/images/com.ikemura23.paparazzi
 	at app.cash.paparazzi.Paparazzi.takeSnapshots(Paparazzi.kt:313)
 ...
 ```
+
+## スナップショット画像の違いはどこで確認できるか？
+`app/build/paparazzi/failures/`に画像が出力され確認できた
+
+![image](https://github.com/ikemura23/android-paparazzi-sample/assets/8417910/4fc353c2-16f5-4954-80c2-787e05a62b2e)
+
+ファイル名
+app/build/paparazzi/failures/delta-com.ikemura23.paparazzi.sample_TagTest_testTag_tag.png
+
+![image](https://github.com/ikemura23/android-paparazzi-sample/assets/8417910/c1533faf-3ffa-43a0-bc97-d78d9c3aca19)
