@@ -31,3 +31,6 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# Paparazzi
+/app/src/test/snapshots/images/
