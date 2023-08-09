@@ -6,6 +6,8 @@
 - 実装の参考にした記事
   - https://hameteman.com/an-introduction-to-paparazzi-for-snapshot-testing
 
+## paparazziを試しに実装したPR
+- https://github.com/ikemura23/android-paparazzi-sample/pull/1
 
 ## テストコマンドの説明
 
