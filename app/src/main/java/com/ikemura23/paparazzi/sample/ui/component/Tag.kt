@@ -11,12 +11,13 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.ikemura23.paparazzi.sample.ui.theme.AndroidPaparazziSampleTheme
 
 @Composable
 fun Tag(
     name: String,
     modifier: Modifier = Modifier,
-    backgroundColor: Color = MaterialTheme.colorScheme.background,
+    backgroundColor: Color = MaterialTheme.colorScheme.inversePrimary,
     contentColor: Color = contentColorFor(backgroundColor),
 ) {
     Text(
@@ -35,5 +36,7 @@ fun Tag(
 @Preview
 @Composable
 private fun TagPreview() {
-    Tag("preview")
+    AndroidPaparazziSampleTheme {
+        Tag("preview")
+    }
 }
